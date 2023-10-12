@@ -1,0 +1,34 @@
+/* Author: Eli Clemens
+Class: CIS131-102
+Date:10-11-2023 */
+body {
+    background-image: url('images/background.jpg');
+     background-size: cover;/*covers background instead of multiple images */
+  }
+#raceWidth{
+    position:absolute;/*allows movement on top of this */
+    height: 1000px;/* width of racetrack */
+    width: 800px;
+
+}
+#startButton{
+    top:10px;
+    /* move button to the right */
+    float: right;
+    height:300px;
+    width:auto;
+    background-color:red;
+}
+#movingObject {
+    /* doesn't measure by picture length so everything is fair */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+#otherObject {
+        /* doesn't measure by picture length so everything is fair */
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 200px;
+}
